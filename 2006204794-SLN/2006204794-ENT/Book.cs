@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2006204794_PER
+namespace _2006204794_ENT
 {
-    public class Class1
+    public class Book
     {
+        public int BookId { get; set; }
+
+        public string Title { get; set; }
     }
 }

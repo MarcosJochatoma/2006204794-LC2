@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _2006204794_ENT
 {
-    public class Class1
+    class Pantalla
     {
     }
 }
