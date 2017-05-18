@@ -40,15 +40,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ATM.cs" />
-    <Compile Include="BaseDatos.cs" />
-    <Compile Include="Book.cs" />
-    <Compile Include="Cuenta.cs" />
-    <Compile Include="DispensadorEfectivo.cs" />
-    <Compile Include="Pantalla.cs" />
-    <Compile Include="RanuraDeposito.cs" />
-    <Compile Include="Retiro.cs" />
-    <Compile Include="Teclado.cs" />
+    <Compile Include="Entity\ATM.cs" />
+    <Compile Include="Entity\BaseDatos.cs" />
+    <Compile Include="Entity\Cuenta.cs" />
+    <Compile Include="Entity\DispensadorEfectivo.cs" />
+    <Compile Include="Entity\Pantalla.cs" />
+    <Compile Include="Entity\RanuraDeposito.cs" />
+    <Compile Include="Entity\Retiro.cs" />
+    <Compile Include="Entity\Teclado.cs" />
+    <Compile Include="IRepository\IATMRepository.cs" />
+    <Compile Include="IRepository\IBaseDatosRepository.cs" />
+    <Compile Include="IRepository\ICuentaRepository.cs" />
+    <Compile Include="IRepository\IPantallaRepository.cs" />
+    <Compile Include="IRepository\IRanuraDepositoRepository.cs" />
+    <Compile Include="IRepository\IRetiroRepository.cs" />
+    <Compile Include="IRepository\ITecladoRepository.cs" />
+    <Compile Include="IRepository\Repository.cs" />
+    <Compile Include="IRepository\UnityOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

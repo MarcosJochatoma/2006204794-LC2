@@ -49,7 +49,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CajeroAutomaticoDbContext.cs" />
+    <Compile Include="CajeroDBContext.cs" />
+    <Compile Include="EntityConfiguration\ATMConfiguration.cs" />
+    <Compile Include="EntityConfiguration\BaseDatosConfiguration.cs" />
+    <Compile Include="EntityConfiguration\CuentaConfiguration.cs" />
+    <Compile Include="EntityConfiguration\DispensadorEfectivoConfiguration.cs" />
+    <Compile Include="EntityConfiguration\PantallaConfiguration.cs" />
+    <Compile Include="EntityConfiguration\RanuraDepositoConfiguration.cs" />
+    <Compile Include="EntityConfiguration\RetiroConfiguration.cs" />
+    <Compile Include="EntityConfiguration\TecladoConfiguration.cs" />
+    <Compile Include="Migrations\2006204794_InitialModel.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

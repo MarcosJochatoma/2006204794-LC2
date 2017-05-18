@@ -1,18 +1,18 @@
-namespace _2006204794_PER.Migrations
+namespace CajeroAutomatico.Persistance.Migrations
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<_2006204794_PER.CajeroAutomaticoDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<CajeroAutomatico.Persistance.CajeroDBContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(_2006204794_PER.CajeroAutomaticoDbContext context)
+        protected override void Seed(CajeroAutomatico.Persistance.CajeroDBContext context)
         {
             //  This method will be called after migrating to the latest version.
 
