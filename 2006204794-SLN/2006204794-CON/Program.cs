@@ -10,7 +10,7 @@ namespace _2006204794_CON
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Mensaje Prueba");
+            Console.WriteLine("Mensaje Prueba 2");
         }
     }
 }
